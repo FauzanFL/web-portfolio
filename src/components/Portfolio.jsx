@@ -48,11 +48,7 @@ const Portfolio = ({ theme }) => {
 
   return (
     <section id="portfolio">
-      <div
-        className={`py-10 px-10 ${
-          theme === 'light' ? 'bg-gray-100' : 'bg-[#1c1c24]'
-        }`}
-      >
+      <div className="py-10 px-10">
         <h2 className="text-2xl text-center font-bold mb-6">
           <span
             className={`border-b-4 ${

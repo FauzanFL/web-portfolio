@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
+import Skill from './components/Skill';
 function App() {
   const [theme, setTheme] = useState(
     localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light'
@@ -29,6 +30,7 @@ function App() {
         <Header theme={theme} switchTheme={handleThemeSwitch} />
         <Hero />
         <About theme={theme} />
+        <Skill theme={theme} />
         <Portfolio theme={theme} />
         <Contact theme={theme} />
         <Footer theme={theme} />

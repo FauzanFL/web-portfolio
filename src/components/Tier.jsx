@@ -15,7 +15,7 @@ const Tier = ({ tier, color, skills }) => {
             <img
               key={i}
               width={'80px'}
-              className="aspect-[3/2] object-contain"
+              className="aspect-[3/2] object-contain drop-shadow-xl"
               src={getImageSkill(skill.image)}
               alt={skill.name}
             />

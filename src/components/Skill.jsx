@@ -1,4 +1,12 @@
+import Tier from './Tier';
+import skillSet from '../data/skill-set.json';
+
 const Skill = ({ theme }) => {
+  const tiers = [
+    { rank: 'A', color: '#ef4444' },
+    { rank: 'B', color: '#f97316' },
+    { rank: 'C', color: '#06b6d4' },
+  ];
   return (
     <section id="skill">
       <div
@@ -12,9 +20,22 @@ const Skill = ({ theme }) => {
               theme === 'light' ? 'border-sky-500' : 'border-orange-500'
             }`}
           >
-            Skills
+            Skill Tier List
           </span>
         </h2>
+        <div className="lg:mx-24 mx-4 my-2 border-2 border-slate-600 divide-y-2 divide-slate-600">
+          {tiers.map((tier, i) => {
+            const skills = skillSet.filter((skill) => skill.tier === tier.rank);
+            return (
+              <Tier
+                tier={tier.rank}
+                key={i}
+                skills={skills}
+                color={tier.color}
+              />
+            );
+          })}
+        </div>
       </div>
     </section>
   );

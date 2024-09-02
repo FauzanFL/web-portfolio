@@ -8,7 +8,7 @@ const Skill = ({ theme }) => {
     { rank: 'C', color: '#06b6d4' },
   ];
   return (
-    <section id="skill">
+    <section id="skills">
       <div
         className={`py-10 px-10 ${
           theme === 'light' ? 'bg-gray-100' : 'bg-[#1c1c24]'

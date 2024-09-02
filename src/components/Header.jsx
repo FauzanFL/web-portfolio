@@ -24,6 +24,11 @@ const Header = ({ theme, switchTheme }) => {
               </a>
             </li>
             <li className="mx-2">
+              <a href="#skills" className="border-transition">
+                Skills
+              </a>
+            </li>
+            <li className="mx-2">
               <a href="#portfolio" className="border-transition">
                 Portfolio
               </a>
@@ -72,6 +77,9 @@ const Header = ({ theme, switchTheme }) => {
       >
         <li className="mx-2">
           <a href="#about">About</a>
+        </li>
+        <li className="mx-2">
+          <a href="#skills">Skills</a>
         </li>
         <li className="mx-2">
           <a href="#portfolio">Portfolio</a>

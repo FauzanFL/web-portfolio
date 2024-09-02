@@ -26,7 +26,7 @@ function App() {
   };
   return (
     <>
-      <div className="max-w-screen overflow-x-hidden">
+      <div className="max-w-screen">
         <Header theme={theme} switchTheme={handleThemeSwitch} />
         <Hero />
         <About theme={theme} />

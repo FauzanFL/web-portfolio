@@ -8,7 +8,7 @@ const Header = ({ theme, switchTheme }) => {
     <header
       className={`flex items-center justify-between sticky ${
         theme === 'light' ? 'bg-white' : 'text-gray-400 bg-slate-900'
-      } top-0 z-50 h-14 font-poppins shadow-sm py-2 px-5`}
+      } top-0 left-0 right-0 z-50 h-14 font-poppins shadow-sm py-2 px-5`}
     >
       <div className="flex items-baseline">
         <a href="#" className="mr-4">
@@ -65,8 +65,8 @@ const Header = ({ theme, switchTheme }) => {
       </div>
       <ul
         className={`menu ${
-          navOpen === true ? '-right-56' : 'right-3'
-        } absolute top-16 md:hidden block font-bold duration-300 ${
+          navOpen === true ? '-top-56' : 'top-16'
+        } absolute right-3 md:hidden block font-bold duration-300 ${
           theme === 'light' ? 'bg-white' : 'bg-slate-900'
         } rounded-md`}
       >

@@ -6,7 +6,7 @@ const Tier = ({ tier, color, skills }) => {
       <div className="flex w-full min-h-[70px] divide-x-2 divide-slate-600">
         <div
           style={{ backgroundColor: color }}
-          className="flex items-center p-3 font-bold text-2xl w-10"
+          className="flex items-center p-3 font-bold text-2xl text-black w-10"
         >
           {tier}
         </div>

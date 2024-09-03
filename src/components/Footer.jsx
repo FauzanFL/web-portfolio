@@ -7,6 +7,7 @@ const Footer = ({ theme }) => {
       }`}
     >
       <p>FauzanFL © 2024 - All rights reserved</p>
+      <p>Developed using React+Vite</p>
     </footer>
   );
 };

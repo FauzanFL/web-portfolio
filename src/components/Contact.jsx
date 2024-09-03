@@ -59,6 +59,7 @@ const Contact = ({ theme }) => {
                     <img
                       src={getImageURL(item.icon)}
                       alt=""
+                      loading="lazy"
                       className="w-8 h-8 mr-2"
                     />
                     {item.account}

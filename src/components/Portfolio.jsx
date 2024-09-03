@@ -104,6 +104,7 @@ const Portfolio = ({ theme }) => {
               <img
                 src={getImageURL(item.image)}
                 alt="preview"
+                loading="lazy"
                 className="border"
               />
               <div className="mt-4">

@@ -22,6 +22,11 @@ const Contact = ({ theme }) => {
       account: '@fauzan_fl',
       link: 'https://www.instagram.com/fauzan_fl/',
     },
+    {
+      icon: 'gmail.png',
+      account: 'fauzanarth@gmail.com',
+      link: 'https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNtfCmPPKjvFjrwZvxrllNbPWtqFNBnmmqBGvSCzjbSxVTlDvVBklVltpdFbHwxngNLlmL',
+    },
   ];
   return (
     <section id="contact">

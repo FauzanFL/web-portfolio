@@ -172,5 +172,5 @@
         "name": "Sequelize",
         "tier": "B",
         "image": "sequelize.png"
-    },
+    }
 ]

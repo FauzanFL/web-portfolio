@@ -154,5 +154,23 @@
         "name": "VueJS",
         "tier": "B",
         "image": "vuejs.png"
-    }
+    },
+    {
+        "id": 27,
+        "name": "Swagger",
+        "tier": "B",
+        "image": "swagger.png"
+    },
+    {
+        "id": 28,
+        "name": "PrismaORM",
+        "tier": "B",
+        "image": "prisma.png"
+    },
+    {
+        "id": 29,
+        "name": "Sequelize",
+        "tier": "B",
+        "image": "sequelize.png"
+    },
 ]

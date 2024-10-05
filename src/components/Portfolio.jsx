@@ -87,7 +87,7 @@ const Portfolio = ({ theme }) => {
           {displayedItems.map((item, index) => (
             <div
               key={index}
-              className={`shadow-md rounded-lg relative p-8 ${
+              className={`shadow-md relative rounded-lg p-8 h-[640px] ${
                 theme === 'light' ? 'bg-white' : 'bg-slate-800'
               }`}
             >
@@ -101,12 +101,14 @@ const Portfolio = ({ theme }) => {
                   <ArrowTopRightOnSquareIcon className="h-6 w-6 hover:text-blue-500" />
                 </a>
               )}
-              <img
-                src={getImageURL(item.image)}
-                alt="preview"
-                loading="lazy"
-                className="border"
-              />
+              <div className="md:h-[270px]">
+                <img
+                  src={getImageURL(item.image)}
+                  alt="preview"
+                  loading="lazy"
+                  className="border"
+                />
+              </div>
               <div className="mt-4">
                 <h3 className="text-3xl font-bold mb-2">{item.title}</h3>
                 <p

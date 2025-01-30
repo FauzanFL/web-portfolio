@@ -1,5 +1,6 @@
 /* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
+import daisyui from "daisyui"
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   darkMode: 'class',
@@ -11,7 +12,7 @@ export default {
       },
     },
   },
-  plugins: [require('daisyui')],
+  plugins: [daisyui],
   daisyui: {
     themes: ['light', 'dark'],
   },

@@ -172,5 +172,11 @@
         "name": "Sequelize",
         "tier": "B",
         "image": "sequelize.png"
+    },
+    {
+        "id": 30,
+        "name": "Solidity",
+        "tier": "C",
+        "image": "solidity.png"
     }
 ]

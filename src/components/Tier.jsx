@@ -15,7 +15,7 @@ const Tier = ({ tier, color, skills, theme }) => {
             <img
               key={i}
               width={'80px'}
-              className={`aspect-[3/2] object-contain drop-shadow-xl rounded-full p-1 ${theme == "dark" ? "bg-gray-300 shadow-[0_0_2px_1px] shadow-gray-200" : ""}`}
+              className={`aspect-[3/2] object-contain drop-shadow-xl rounded-full p-1 ${theme == "dark" ? "bg-gray-400 shadow-[0_0_2px_1px] shadow-gray-300" : ""}`}
               loading="lazy"
               src={getImageSkill(skill.image)}
               alt={skill.name}

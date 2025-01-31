@@ -32,6 +32,7 @@ const Skill = ({ theme }) => {
                 key={i}
                 skills={skills}
                 color={tier.color}
+                theme= {theme}
               />
             );
           })}

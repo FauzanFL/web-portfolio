@@ -32,9 +32,10 @@ export default function Pagination({
         href="#"
         onClick={() => onFirst()}
         className={
-          'relative inline-flex items-center rounded-2xl px-2 py-2 text-gray-400 ring-1 ring-inset hover:text-black ring-gray-300 hover:bg-fuchsia-100 focus:z-20 focus:outline-offset-0 ' +
-          (currentPage === 1 ? 'pointer-events-none' : '')
+          'relative inline-flex items-center rounded-2xl px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 focus:z-20 focus:outline-offset-0 ' +
+          (currentPage === 1 ? 'cursor-not-allowed' : 'hover:text-black hover:bg-fuchsia-100')
         }
+        disabled = {currentPage === 1}
       >
         <span className="sr-only">Previous</span>
         <ChevronDoubleLeftIcon className="h-5 w-5" aria-hidden="true" />
@@ -43,9 +44,10 @@ export default function Pagination({
         href="#"
         onClick={() => onPrev()}
         className={
-          'relative hidden md:inline-flex items-center rounded-2xl px-2 py-2 text-gray-400 ring-1 ring-inset hover:text-black ring-gray-300 hover:bg-fuchsia-100 focus:z-20 focus:outline-offset-0 ' +
-          (currentPage === 1 ? 'pointer-events-none' : '')
+          'relative hidden md:inline-flex items-center rounded-2xl px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 focus:z-20 focus:outline-offset-0 ' +
+          (currentPage === 1 ? 'cursor-not-allowed' : 'hover:text-black hover:bg-fuchsia-100')
         }
+        disabled = {currentPage === 1}
       >
         <span className="sr-only">Previous</span>
         <ChevronLeftIcon className="h-5 w-5" aria-hidden="true" />
@@ -68,9 +70,10 @@ export default function Pagination({
       <button
         onClick={() => onNext()}
         className={
-          'relative hidden md:inline-flex items-center rounded-2xl px-2 py-2 text-gray-400 ring-1 ring-inset hover:text-black ring-gray-300 hover:bg-fuchsia-100 focus:z-20 focus:outline-offset-0 ' +
-          (currentPage === totalPages ? 'pointer-events-none' : '')
+          'relative hidden md:inline-flex items-center rounded-2xl px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 focus:z-20 focus:outline-offset-0 ' +
+          (currentPage === totalPages ? 'cursor-not-allowed' : 'hover:text-black hover:bg-fuchsia-100')
         }
+        disabled = {currentPage === totalPages}
       >
         <span className="sr-only">Next</span>
         <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
@@ -79,9 +82,10 @@ export default function Pagination({
         href="#"
         onClick={() => onLast()}
         className={
-          'relative inline-flex items-center rounded-2xl px-2 py-2 text-gray-400 ring-1 ring-inset hover:text-black ring-gray-300 hover:bg-fuchsia-100 focus:z-20 focus:outline-offset-0 ' +
-          (currentPage === totalPages ? 'pointer-events-none' : '')
+          'relative inline-flex items-center rounded-2xl px-2 py-2 text-gray-400 ring-1 ring-inset  ring-gray-300 focus:z-20 focus:outline-offset-0 ' +
+          (currentPage === totalPages ? 'cursor-not-allowed' : 'hover:text-black hover:bg-fuchsia-100')
         }
+        disabled = {currentPage === totalPages}
       >
         <span className="sr-only">Next</span>
         <ChevronDoubleRightIcon className="h-5 w-5" aria-hidden="true" />

@@ -51,7 +51,7 @@ const Portfolio = ({ theme }) => {
       <div className="py-10 px-10">
         <h2 className="text-2xl text-center font-bold mb-6">
           <span
-            className={`border-b-4 ${
+            className={`border-b-4 lobster ${
               theme === 'light' ? 'border-sky-500' : 'border-orange-500'
             }`}
           >
@@ -67,7 +67,7 @@ const Portfolio = ({ theme }) => {
             return (
               <button
                 key={index}
-                className={`border rounded-xl px-4 py-2 mx-1 duration-300 ${
+                className={`border rounded-xl px-4 py-2 mx-1 duration-300 noto-serif ${
                   theme === 'light'
                     ? category === item
                       ? 'bg-sky-300'
@@ -110,9 +110,9 @@ const Portfolio = ({ theme }) => {
                 />
               </div>
               <div className="mt-4">
-                <h3 className="text-3xl font-bold mb-2">{item.title}</h3>
+                <h3 className="text-3xl mb-2 lilita-one">{item.title}</h3>
                 <p
-                  className={`${theme === 'light' ? 'text-gray-600' : ''} mb-4`}
+                  className={`${theme === 'light' ? 'text-gray-600' : ''} mb-4 noto-serif`}
                 >
                   {item.description}
                 </p>

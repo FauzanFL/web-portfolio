@@ -73,9 +73,9 @@ const Header = ({ theme, switchTheme }) => {
     </header>
     <div className={`menu ${
           navOpen === true ? '-top-56' : 'top-16'
-        } fixed right-3 md:hidden block font-bold duration-300 ${
+        } absolute right-3 md:hidden block font-bold duration-300 ${
           theme === 'light' ? 'bg-white' : 'bg-slate-900'
-        } rounded-md z-40`}>
+        } rounded-md z-40 fixed`}>
       <ul>
         <li className="mx-2">
           <a href="#about">About</a>

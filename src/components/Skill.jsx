@@ -16,7 +16,7 @@ const Skill = ({ theme }) => {
       >
         <h2 className="text-2xl text-center font-bold mb-6">
           <span
-            className={`border-b-4 ${
+            className={`border-b-4 lobster ${
               theme === 'light' ? 'border-sky-500' : 'border-orange-500'
             }`}
           >

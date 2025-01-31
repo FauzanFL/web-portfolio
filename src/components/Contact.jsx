@@ -12,7 +12,7 @@ const Contact = ({ theme }) => {
         <div className="w-full">
           <h2 className="text-2xl text-center font-bold mb-6">
             <span
-              className={`border-b-4 ${
+              className={`border-b-4 lobster ${
                 theme === 'light' ? 'border-sky-500' : 'border-orange-500'
               }`}
             >
@@ -20,7 +20,7 @@ const Contact = ({ theme }) => {
             </span>
           </h2>
           <div className="">
-            <h3 className="text-xl font-medium">Follow me on:</h3>
+            <h3 className="text-xl lilita-one">Follow me on:</h3>
             <div className="flex flex-wrap mt-2 gap-4">
               {contacts.map((item, index) => (
                 <div className={`btn ${theme == 'dark' ? 'hover:shadow-[0_0_2px_1px] hover:shadow-gray-200': ''}`} key={index}>

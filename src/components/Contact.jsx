@@ -1,33 +1,7 @@
 /* eslint-disable react/prop-types */
 import { getImageURL } from '../utils/image-util';
+import contacts from '../data/contact.json'
 const Contact = ({ theme }) => {
-  const contacts = [
-    {
-      icon: 'linkedin.png',
-      account: 'Fauzan Fashihul Lisan',
-      link: 'https://www.linkedin.com/in/fauzanfl/',
-    },
-    {
-      icon: 'facebook.png',
-      account: 'Fauzan Fashihul Lisan',
-      link: 'https://www.facebook.com/fauzan.fashihullisan',
-    },
-    {
-      icon: 'github.png',
-      account: 'FauzanFL',
-      link: 'https://github.com/FauzanFL',
-    },
-    {
-      icon: 'instagram.png',
-      account: '@fauzan_fl',
-      link: 'https://www.instagram.com/fauzan_fl/',
-    },
-    {
-      icon: 'gmail.png',
-      account: 'fauzanarth@gmail.com',
-      link: 'https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNtfCmPPKjvFjrwZvxrllNbPWtqFNBnmmqBGvSCzjbSxVTlDvVBklVltpdFbHwxngNLlmL',
-    },
-  ];
   return (
     <section id="contact">
       <div
@@ -49,7 +23,7 @@ const Contact = ({ theme }) => {
             <h3 className="text-xl font-medium">Follow me on:</h3>
             <div className="flex flex-wrap mt-2 gap-4">
               {contacts.map((item, index) => (
-                <div className="btn" key={index}>
+                <div className={`btn ${theme == 'dark' ? 'hover:shadow-[0_0_2px_1px] hover:shadow-gray-200': ''}`} key={index}>
                   <a
                     href={item.link}
                     target="_blank"
@@ -60,7 +34,7 @@ const Contact = ({ theme }) => {
                       src={getImageURL(item.icon)}
                       alt=""
                       loading="lazy"
-                      className="w-8 h-8 mr-2"
+                      className={`w-8 h-8 mr-2 p-0.5 ${theme == 'dark' ? 'bg-gray-400 rounded-full': ''}`}
                     />
                     {item.account}
                   </a>

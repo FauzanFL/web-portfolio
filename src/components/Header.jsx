@@ -5,6 +5,7 @@ import { useState } from 'react';
 const Header = ({ theme, switchTheme }) => {
   const [navOpen, setNavOpen] = useState(false);
   return (
+    <>
     <header
       className={`flex items-center justify-between sticky ${
         theme === 'light' ? 'bg-white' : 'text-gray-400 bg-slate-900'
@@ -69,13 +70,13 @@ const Header = ({ theme, switchTheme }) => {
           <Bars3Icon className="md:hidden block h-8 w-8 ml-2" />
         </button>
       </div>
-      <ul
-        className={`menu ${
+    </header>
+    <div className={`menu ${
           navOpen === true ? '-top-56' : 'top-16'
-        } absolute right-3 md:hidden block font-bold duration-300 ${
+        } fixed right-3 md:hidden block font-bold duration-300 ${
           theme === 'light' ? 'bg-white' : 'bg-slate-900'
-        } rounded-md`}
-      >
+        } rounded-md z-40`}>
+      <ul>
         <li className="mx-2">
           <a href="#about">About</a>
         </li>
@@ -89,7 +90,8 @@ const Header = ({ theme, switchTheme }) => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-    </header>
+    </div>
+    </>
   );
 };
 

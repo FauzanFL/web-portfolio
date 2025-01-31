@@ -178,5 +178,11 @@
         "name": "Solidity",
         "tier": "C",
         "image": "solidity.png"
+    },
+    {
+        "id": 31,
+        "name": "Google Cloud",
+        "tier": "B",
+        "image": "google-cloud.png"
     }
 ]

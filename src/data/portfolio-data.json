@@ -235,5 +235,40 @@
                 "url": "https://github.com/FauzanFL/belajar-go-restapi"
             }
         ]
+    },
+    {
+        "id": 13,
+        "title": "Marketplace Smart Contract Example",
+        "description": "Marketplace smart contract with simple functionality such as minting, get data from blockchain, burn nft, and change data in blockchain",
+        "category": "Blockchain",
+        "image": "default.jpg",
+        "publication": "",
+        "technologies": [
+            "Solidity",
+            "Hardhat"
+        ],
+        "github-repo": [
+            {
+                "name": "Link to Github Repository",
+                "url": "https://github.com/FauzanFL/rwa-marketplace-smart-contract"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "NFT Marketplace Website",
+        "description": "Simple website for nft matkerplace, have functionality to mint, burn, get, and burn nft from the blockchain",
+        "category": "Frontend",
+        "image": "rwamarketplace.png",
+        "publication": "https://rwa-marketplace-gray.vercel.app/",
+        "technologies": [
+            "NextJS"
+        ],
+        "github-repo": [
+            {
+                "name": "Link to Github Repository",
+                "url": "https://github.com/FauzanFL/rwa-marketplace"
+            }
+        ]
     }
 ]

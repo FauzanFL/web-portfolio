@@ -184,5 +184,11 @@
         "name": "Google Cloud",
         "tier": "B",
         "image": "google-cloud.png"
+    },
+    {
+        "id": 32,
+        "name": "Docker",
+        "tier": "A",
+        "image": "docker.png"
     }
 ]

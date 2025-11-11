@@ -29,7 +29,7 @@ export default function Home() {
         <Header isDark={isDark} toggleTheme={toggleTheme} />
 
         <main>
-          <Hero />
+          <Hero isDark={isDark} />
           <Portfolio />
         </main>
       </div>

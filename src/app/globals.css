@@ -24,12 +24,13 @@
 
 :root {
   /* Light mode */
-  --background: #fad59a;
-  --foreground: #0a1c40;
+  --background: #fdf9f1;
+  --background-second: #fcefcb;
+  --foreground: #2a2a2a;
   --card: #ffffff;
-  --card-foreground: #0a1c40;
+  --card-foreground: #2a2a2a;
   --popover: #ffffff;
-  --popover-foreground: #0a1c40;
+  --popover-foreground: #2a2a2a;
   --primary: #c79a2d;
   --secondary: #be3d2a;
   /* --border: #717171; */
@@ -44,12 +45,13 @@
 
 /* Dark mode */
 .dark {
-  --background: #0a1c40;
-  --foreground: #fdf9f1;
+  --background: #0e2452;
+  --background-second: #0a1c40;
+  --foreground: #f1f5f9;
   --card: #1e293b;
-  --card-foreground: #fdf9f1;
+  --card-foreground: #f1f5f9;
   --popover: #1e293b;
-  --popover-foreground: #fdf9f1;
+  --popover-foreground: #f1f5f9;
   /* --border: #717171; */
   --border: rgba(255, 255, 255, 0.1);
 }
@@ -60,6 +62,7 @@
   --font-montserrat: var(--font-montserrat);
   --font-playfair-display: var(--font-playfair-display);
   --color-background: var(--background);
+  --color-background-second: var(--background-second);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
@@ -68,6 +71,18 @@
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-border: var(--border);
+}
+
+@layer base {
+  /* * {
+    @apply border-border outline-ring/50;
+  } */
+
+  body {
+    @apply bg-background text-foreground;
+    transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+      color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 html {
@@ -116,4 +131,24 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
+}
+
+.text-gradient-dark {
+  background: linear-gradient(to right, #c79a2d 0%, #fdf9f1 52%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.text-gradient-light {
+  background: linear-gradient(to right, #be3d2a 0%, #0a1c40 52%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.shadow-custom {
+  box-shadow: -2px 2px 5px 0px var(--primary);
 }

@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("/fonts/BodoniModa.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/PlayfairDisplay.ttf") format("truetype");
+}
+
+:root {
+  /* Light mode */
+  --background: #fad59a;
+  --foreground: #0a1c40;
+  --card: #ffffff;
+  --card-foreground: #0a1c40;
+  --popover: #ffffff;
+  --popover-foreground: #0a1c40;
+  --primary: #c79a2d;
+  --secondary: #be3d2a;
+  /* --border: #717171; */
+  --border: rgba(0, 0, 0, 0.08);
+
+  /* Typoghraphy */
+  --font-open-sans: "Open Sans", sans-serif;
+  --font-bodoni-moda: "Bodoni Moda", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-playfair-display: "Playfair Display", sans-serif;
+}
+
+/* Dark mode */
+.dark {
+  --background: #0a1c40;
+  --foreground: #fdf9f1;
+  --card: #1e293b;
+  --card-foreground: #fdf9f1;
+  --popover: #1e293b;
+  --popover-foreground: #fdf9f1;
+  /* --border: #717171; */
+  --border: rgba(255, 255, 255, 0.1);
+}
+
+@theme inline {
+  --font-open-sans: var(--font-open-sans);
+  --font-bodoni-moda: var(--font-bodoni-moda);
+  --font-montserrat: var(--font-montserrat);
+  --font-playfair-display: var(--font-playfair-display);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-border: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Utility classes for liquid effects */
+.liquid-morph {
+  animation: liquidFlow 8s ease-in-out infinite;
+}
+
+.liquid-pulse {
+  animation: liquidPulse 4s ease-in-out infinite;
+}
+
+.floating {
+  animation: float 6s ease-in-out infinite;
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.slide-in {
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+/* Smooth transitions */
+.smooth-transition {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted-foreground);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}

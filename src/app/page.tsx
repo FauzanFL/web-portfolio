@@ -30,7 +30,7 @@ export default function Home() {
 
         <main>
           <Hero isDark={isDark} />
-          <Portfolio />
+          <Portfolio isDark={isDark} />
         </main>
       </div>
     </>

@@ -26,11 +26,11 @@
   /* Light mode */
   --background: #fdf9f1;
   --background-second: #fcefcb;
-  --foreground: #2a2a2a;
+  --foreground: #0e2452;
   --card: #ffffff;
-  --card-foreground: #2a2a2a;
+  --card-foreground: #0e2452;
   --popover: #ffffff;
-  --popover-foreground: #2a2a2a;
+  --popover-foreground: #0e2452;
   --primary: #c79a2d;
   --secondary: #be3d2a;
   /* --border: #717171; */

@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 interface HeroProps {
   isDark: boolean;
 }
@@ -34,6 +36,26 @@ export function Hero({ isDark }: HeroProps) {
               <button className="px-4 py-2 bg-background-second/90 rounded-full smooth-transition hover:scale-110 shadow-custom">
                 Contact Me →
               </button>
+            </div>
+          </div>
+
+          {/* Right Content */}
+          <div className="flex justify-center lg:justify-end">
+            <div className="relative">
+              {/* Liquid background effect */}
+              <div className="absolute inset-0 bg-linear-to-br from-primary to-accent/20 liquid-morph blur-2xl"></div>
+
+              {/* Profile image container */}
+              <div className="relative w-80 h-80 lg:w-96 lg:h-96 rotate-[0.12rad] rounded-[3rem] overflow-hidden smooth-transition hover:scale-105">
+                <div className="absolute inset-0 bg-linear-to-br from-primary to-accent/30"></div>
+                <Image
+                  src="/my-photo.png"
+                  alt="Profile"
+                  className="w-full h-full object-cover rotate-[-0.12rad] -translate-x-3 translate-y-4"
+                  fill
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
           </div>
         </div>

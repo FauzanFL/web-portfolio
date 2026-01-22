@@ -190,5 +190,17 @@
         "name": "Docker",
         "tier": "A",
         "image": "docker.png"
+    },
+    {
+        "id": 33,
+        "name": "SvelteKit",
+        "tier": "B",
+        "image": "sveltekit.png"
+    },
+    {
+        "id": 34,
+        "name": "FastAPI",
+        "tier": "B",
+        "image": "fastapi.png"
     }
 ]

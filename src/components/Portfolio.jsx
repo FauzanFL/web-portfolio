@@ -1,18 +1,18 @@
 /* eslint-disable react/prop-types */
-import { useState } from 'react';
-import portfolioData from '../data/portfolio-data.json';
-import { getImageURL } from '../utils/image-util';
-import Pagination from './Pagination';
-import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
+import { useState } from "react";
+import portfolioData from "../data/portfolio-data.json";
+import { getImageURL } from "../utils/image-util";
+import Pagination from "./Pagination";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 const Portfolio = ({ theme }) => {
-  const [category, setCategory] = useState('All');
+  const [category, setCategory] = useState("All");
   const categorySet = new Set(portfolioData.map((item) => item.category));
   const categoryArray = Array.from(categorySet);
-  const categories = ['All', ...categoryArray];
+  const categories = ["All", ...categoryArray];
 
   let chosenData = [];
-  if (category !== 'All') {
+  if (category !== "All") {
     chosenData = portfolioData.filter((item) => item.category === category);
   } else {
     chosenData = portfolioData;
@@ -24,6 +24,7 @@ const Portfolio = ({ theme }) => {
   const totalPages =
     chosenData != null ? Math.ceil(chosenData.length / itemsPerPage) : 1;
 
+  chosenData = chosenData.toReversed();
   let displayedItems = chosenData.slice(startIndex, endIndex);
 
   const handlePageChange = (pageNumber) => {
@@ -52,7 +53,7 @@ const Portfolio = ({ theme }) => {
         <h2 className="text-2xl text-center font-bold mb-6">
           <span
             className={`border-b-4 lobster ${
-              theme === 'light' ? 'border-sky-500' : 'border-orange-500'
+              theme === "light" ? "border-sky-500" : "border-orange-500"
             }`}
           >
             Portfolio
@@ -68,13 +69,13 @@ const Portfolio = ({ theme }) => {
               <button
                 key={index}
                 className={`border rounded-xl px-4 py-2 mx-1 duration-300 noto-serif ${
-                  theme === 'light'
+                  theme === "light"
                     ? category === item
-                      ? 'bg-sky-300'
-                      : 'hover:bg-sky-300'
+                      ? "bg-sky-300"
+                      : "hover:bg-sky-300"
                     : category === item
-                    ? 'bg-orange-500 text-white'
-                    : 'hover:bg-orange-600 hover:text-white'
+                      ? "bg-orange-500 text-white"
+                      : "hover:bg-orange-600 hover:text-white"
                 }`}
                 onClick={handleClick}
               >
@@ -88,10 +89,10 @@ const Portfolio = ({ theme }) => {
             <div
               key={index}
               className={`shadow-md relative rounded-lg p-8 h-[640px] ${
-                theme === 'light' ? 'bg-white' : 'bg-slate-800'
+                theme === "light" ? "bg-white" : "bg-slate-800"
               }`}
             >
-              {item.publication !== '' && (
+              {item.publication !== "" && (
                 <a
                   href={item.publication}
                   target="_blank"
@@ -106,32 +107,32 @@ const Portfolio = ({ theme }) => {
                   src={getImageURL(item.image)}
                   alt="preview"
                   loading="lazy"
-                  className="border"
+                  className="w-full h-full object-fill border"
                 />
               </div>
               <div className="mt-4">
                 <h3 className="text-3xl mb-2 lilita-one">{item.title}</h3>
                 <p
-                  className={`${theme === 'light' ? 'text-gray-600' : ''} mb-4 noto-serif`}
+                  className={`${theme === "light" ? "text-gray-600" : ""} mb-4 noto-serif`}
                 >
                   {item.description}
                 </p>
                 <div className="mb-4">
                   <h4
                     className={`${
-                      theme === 'light' ? 'text-gray-600' : ''
+                      theme === "light" ? "text-gray-600" : ""
                     } font-bold mb-2`}
                   >
                     Technology:
                   </h4>
                   <div className="flex flex-wrap gap-1">
-                    {item['technologies'].map((tech, index) => (
+                    {item["technologies"].map((tech, index) => (
                       <div
                         key={index}
                         className={`${
-                          theme === 'light'
-                            ? 'bg-gray-200 text-gray-600'
-                            : 'bg-gray-700 text-white'
+                          theme === "light"
+                            ? "bg-gray-200 text-gray-600"
+                            : "bg-gray-700 text-white"
                         } px-2 py-1 rounded-lg`}
                       >
                         {tech}
@@ -142,13 +143,13 @@ const Portfolio = ({ theme }) => {
                 <div className="mb">
                   <h4
                     className={`${
-                      theme === 'light' ? 'text-gray-600' : ''
+                      theme === "light" ? "text-gray-600" : ""
                     } font-bold mb-2`}
                   >
                     See code here:
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    {item['github-repo'].map((repo, index) => (
+                    {item["github-repo"].map((repo, index) => (
                       <a
                         key={index}
                         target="_blank"

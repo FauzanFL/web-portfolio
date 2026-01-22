@@ -270,5 +270,30 @@
                 "url": "https://github.com/FauzanFL/rwa-marketplace"
             }
         ]
+    },
+    {
+        "id": 15,
+        "title": "Inventory App",
+        "description": "A simple responsive website that manages inventory data. It can add, edit, and delete data, also have a search function for data. It also implements RBAC (Role Based Access Control).",
+        "category": "Website",
+        "image": "inventory-app.png",
+        "publication": "",
+        "technologies": [
+            "SvelteKit",
+            "Shadcn-svelte",
+            "TailwindCSS",
+            "PostgreSQL",
+            "FastAPI"
+        ],
+        "github-repo": [
+            {
+                "name": "Frontend",
+                "url": "https://github.com/FauzanFL/inventory-frontend"
+            },
+            {
+                "name": "Backend",
+                "url": "https://github.com/FauzanFL/inventory-backend"
+            }
+        ]
     }
 ]

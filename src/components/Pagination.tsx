@@ -26,7 +26,7 @@ export default function Pagination({
   const pageToShow = pageNumbers.slice(startPage - 1, endPage);
 
   return (
-    <div className="flex items-center justify-center gap-2">
+    <div className="flex flex-row md:flex-col items-center justify-center gap-2">
       <button
         onClick={onPreviousPage}
         className={
@@ -36,7 +36,7 @@ export default function Pagination({
             : "hover:bg-gray-100 dark:hover:bg-gray-700")
         }
       >
-        <ChevronLeft className="h-4 w-4" />
+        <ChevronLeft className="h-4 w-4 md:rotate-90" />
       </button>
       {pageToShow.map((page) => (
         <button
@@ -61,7 +61,7 @@ export default function Pagination({
             : "hover:bg-gray-100 dark:hover:bg-gray-700")
         }
       >
-        <ChevronRight className="h-4 w-4" />
+        <ChevronRight className="h-4 w-4 md:rotate-90" />
       </button>
     </div>
   );

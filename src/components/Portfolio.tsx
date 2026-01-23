@@ -4,6 +4,7 @@ import { useState } from "react";
 import PortfolioItem from "./PortfolioItem";
 import PortfolioCategories from "./PortfolioCategories";
 import Pagination from "./Pagination";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Portfolio() {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -66,15 +67,27 @@ export default function Portfolio() {
           activeFilter={activeFilter}
         />
 
-        <PortfolioItem data={displayedProjects} />
+        <div className="flex md:items-start flex-col md:flex-row gap-8">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={currentPage + activeFilter}
+              initial={{opacity:0, y: 10}}
+              animate={{opacity:1, y: 0}}
+              exit={{opacity:0, y:-10}}
+              transition={{duration:0.2}}
+            >
+              <PortfolioItem data={displayedProjects} />
+            </motion.div>
+          </AnimatePresence>
 
-        <Pagination
-          currentPage={currentPage}
-          totalPages={totalPages}
-          onPageChange={handlePageChange}
-          onNextPage={handleNextPage}
-          onPreviousPage={handlePreviousPage}
-        />
+          <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={handlePageChange}
+            onNextPage={handleNextPage}
+            onPreviousPage={handlePreviousPage}
+          />
+        </div>
       </div>
     </section>
   );

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "linkedin",
+    "account": "Fauzan Fashihul Lisan",
+    "link": "https://www.linkedin.com/in/fauzanfl/",
+    "color": "hover:text-blue-600",
+    "bgColor": "hover:bg-blue-50"
+  },
+  {
+    "name": "facebook",
+    "account": "Fauzan Fashihul Lisan",
+    "link": "https://www.facebook.com/fauzan.fashihullisan",
+    "color": "hover:text-blue-600",
+    "bgColor": "hover:bg-blue-50"
+  },
+  {
+    "name": "github",
+    "account": "FauzanFL",
+    "link": "https://github.com/FauzanFL",
+    "color": "hover:text-gray-600",
+    "bgColor": "hover:bg-gray-50"
+  },
+  {
+    "name": "instagram",
+    "account": "@fauzan_fl",
+    "link": "https://www.instagram.com/farthas_/",
+    "color": "hover:text-pink-600",
+    "bgColor": "hover:bg-pink-50"
+  },
+  {
+    "name": "email",
+    "account": "fauzanarth@gmail.com",
+    "link": "https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNtfCmPPKjvFjrwZvxrllNbPWtqFNBnmmqBGvSCzjbSxVTlDvVBklVltpdFbHwxngNLlmL",
+    "color": "hover:text-red-600",
+    "bgColor": "hover:bg-red-50"
+  }
+]

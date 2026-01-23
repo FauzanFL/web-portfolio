@@ -13,7 +13,7 @@
             "Gin-Gonic",
             "MySQL"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Frontend",
                 "url": "https://github.com/FauzanFL/obe-rpl"
@@ -36,7 +36,7 @@
             "TailwindCSS",
             "Public API"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/FauzanFL/exercisepath"
@@ -56,7 +56,7 @@
             "CSS",
             "MongoDB"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Frontend",
                 "url": "https://github.com/FauzanFL/vuestore-client"
@@ -78,7 +78,7 @@
             "Flask",
             "Python"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/PelitaApp/bangkit-cloud-computing"
@@ -97,7 +97,7 @@
             "HTML",
             "CSS"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/FauzanFL/restaurant-apps"
@@ -116,7 +116,7 @@
             "CSS",
             "Javascript"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/FauzanFL/pwt-mantap"
@@ -135,7 +135,7 @@
             "CSS",
             "Javascript"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/FauzanFL/web-clock"
@@ -155,7 +155,7 @@
             "PHP",
             "Laravel"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/FauzanFL/lat_laravel"
@@ -174,7 +174,7 @@
             "CSS",
             "PHP"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/FauzanFL/website-raport"
@@ -193,7 +193,7 @@
             "CSS",
             "Javascript"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/FauzanFL/gunting-kertas-batu"
@@ -211,7 +211,7 @@
             "Javascript",
             "HapiJS"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/FauzanFL/notes-app-back-end"
@@ -229,7 +229,7 @@
             "Golang",
             "MySQL"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/FauzanFL/belajar-go-restapi"
@@ -247,7 +247,7 @@
             "Solidity",
             "Hardhat"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/FauzanFL/rwa-marketplace-smart-contract"
@@ -264,10 +264,35 @@
         "technologies": [
             "NextJS"
         ],
-        "github-repo": [
+        "githubRepo": [
             {
                 "name": "Link to Github Repository",
                 "url": "https://github.com/FauzanFL/rwa-marketplace"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Inventory App",
+        "description": "A simple responsive website that manages inventory data. It can add, edit, and delete data, also have a search function for data. It also implements RBAC (Role Based Access Control).",
+        "category": "Website",
+        "image": "inventory-app.png",
+        "publication": "",
+        "technologies": [
+            "SvelteKit",
+            "Shadcn-svelte",
+            "TailwindCSS",
+            "PostgreSQL",
+            "FastAPI"
+        ],
+        "githubRepo": [
+            {
+                "name": "Frontend",
+                "url": "https://github.com/FauzanFL/inventory-frontend"
+            },
+            {
+                "name": "Backend",
+                "url": "https://github.com/FauzanFL/inventory-backend"
             }
         ]
     }

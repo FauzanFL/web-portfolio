@@ -4,9 +4,16 @@ import { Menu, Moon, Sun, X } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 
-export function Header() {
+export default function Header() {
   const { isDark, toggleTheme } = useTheme();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const navItems = [
+    { name: "About", id: "about" },
+    { name: "Portfolio", id: "portfolio" },
+    { name: "Skills", id: "skills" },
+    { name: "Contact", id: "contact" },
+  ];
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -16,7 +23,7 @@ export function Header() {
   };
 
   return (
-    <header className="fixed top-0 right-0 left-0 z-50 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 shadow-sm transition-colors duration-300">
+    <header className="fixed top-0 right-0 left-0 z-50 font-montserrat bg-white/90 dark:bg-gray-900/90 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 shadow-sm transition-colors duration-300">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-end-safe space-x-2 hover:cursor-pointer group">
           <Image
@@ -31,41 +38,16 @@ export function Header() {
         </div>
 
         <nav className="hidden md:flex space-x-5 font-semibold text-sm">
-          <button
-            onClick={() => scrollToSection("about")}
-            className="text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors relative group"
-          >
-            About
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-linear-to-r from-purple-600 to-blue-600 group-hover:w-full transition-all duration-300"></span>
-          </button>
-          <button
-            onClick={() => scrollToSection("portfolio")}
-            className="text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors relative group"
-          >
-            Portfolio
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-linear-to-r from-purple-600 to-blue-600 group-hover:w-full transition-all duration-300"></span>
-          </button>
-          <button
-            onClick={() => scrollToSection("skills")}
-            className="text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors relative group"
-          >
-            Skills
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-linear-to-r from-purple-600 to-blue-600 group-hover:w-full transition-all duration-300"></span>
-          </button>
-          <button
-            onClick={() => scrollToSection("experience")}
-            className="text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors relative group"
-          >
-            Experience
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-linear-to-r from-purple-600 to-blue-600 group-hover:w-full transition-all duration-300"></span>
-          </button>
-          <button
-            onClick={() => scrollToSection("contact")}
-            className="text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors relative group"
-          >
-            Contact
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-linear-to-r from-purple-600 to-blue-600 group-hover:w-full transition-all duration-300"></span>
-          </button>
+          {navItems.map((item) => (
+            <button
+              key={item.id}
+              onClick={() => scrollToSection(item.id)}
+              className="text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors relative group"
+            >
+              {item.name}
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-linear-to-r from-purple-600 to-blue-600 group-hover:w-full transition-all duration-300"></span>
+            </button>
+          ))}
         </nav>
 
         <div className="flex items-center gap-4">

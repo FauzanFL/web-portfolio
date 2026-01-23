@@ -20,9 +20,6 @@ export const metadata: Metadata = {
       "Software engineer passionate about building modern web applications",
     type: "website",
   },
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 export default function RootLayout({

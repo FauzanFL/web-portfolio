@@ -7,8 +7,6 @@ export default function Skill() {
 
   const duplicatedSkills = [...skills, ...skills];
 
-  console.log(duplicatedSkills);
-
   return (
     <>
       <section

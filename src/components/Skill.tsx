@@ -13,7 +13,7 @@ export default function Skill() {
     <>
       <section
         id="skills"
-        className="py-20 bg-linear-to-br from-gray-50 to-purple-50/30 dark:from-gray-900 dark:to-purple-900/10 transition-colors duration-300 overflow-hidden"
+        className="py-20 bg-linear-to-br from-gray-50 to-purple-50 dark:from-gray-900 dark:to-purple-900/10 transition-colors duration-300 overflow-hidden"
       >
         <div className="container mx-auto px-6">
           <h2 className="text-4xl text-center font-bodoni-moda mb-10 italic underline decoration-2 underline-offset-8 decoration-purple-600 dark:text-white">

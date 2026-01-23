@@ -39,7 +39,7 @@ export default function PortfolioItem({ data }: { data: PortfolioData[] }) {
                 ))}
               </div>
             </div>
-            <div className="flex gap-4 font-montserrat">
+            <div className="flex md:flex-row flex-col gap-2 md:gap-4 font-montserrat">
               {item.publication && (
                 <a
                   href={item.publication}

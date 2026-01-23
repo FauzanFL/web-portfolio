@@ -5,6 +5,8 @@ import AllSkillModal from "./AllSkillModal";
 export default function Skill() {
   const [showAllSkills, setShowAllSkills] = useState(false);
 
+  skills.sort((a: SkillData, b: SkillData) => a.tier.localeCompare(b.tier));
+
   const duplicatedSkills = [...skills, ...skills];
 
   return (

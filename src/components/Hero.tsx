@@ -1,4 +1,11 @@
 export default function Hero() {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section
       id="about"
@@ -46,12 +53,12 @@ export default function Hero() {
                 </span>{" "}
                 with Google Cloud
               </p>
-              <a
-                href="#contact"
+              <button
+                onClick={() => scrollToSection('contact')}
                 className="inline-block px-10 py-3.5 bg-linear-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white rounded-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 font-medium shadow-lg"
               >
                 Contact Me
-              </a>
+              </button>
             </div>
           </div>
         </div>

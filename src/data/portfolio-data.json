@@ -295,5 +295,29 @@
                 "url": "https://github.com/FauzanFL/inventory-backend"
             }
         ]
+    },
+    {
+        "id": 16,
+        "title": "Eco Tracker",
+        "description": "A Web3-powered carbon emission dashboard that enables users to monitor, analyze, and synchronize their carbon footprint on-chain with transparency, accuracy, and in real-time.",
+        "category": "Website",
+        "image": "ecotracker.jpg",
+        "publication": "",
+        "technologies": [
+            "Polygon Amoy",
+            "Solidity",
+            "NextJS",
+            "TailwindCSS",
+            "Foundry",
+            "NestJS",
+            "PostgreSQL",
+            "Turborepo"
+        ],
+        "githubRepo": [
+            {
+                "name": "Link to Github Repository",
+                "url": "https://github.com/FauzanFL/blockchain-ecotracker"
+            }
+        ]
     }
 ]

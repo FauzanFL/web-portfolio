@@ -311,7 +311,8 @@
             "Foundry",
             "NestJS",
             "PostgreSQL",
-            "Turborepo"
+            "Turborepo",
+            "Docker"
         ],
         "githubRepo": [
             {

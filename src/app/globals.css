@@ -1,3 +1,21 @@
-@import "../styles/tailwind.css";
+@import "tailwindcss";
 @import "../styles/font.css";
 @import "../styles/theme.css";
+
+@layer utilities {
+  /* Kondisi Light Mode */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-black/15 rounded-full border-2 border-transparent bg-clip-padding transition-colors duration-300 hover:bg-black/35 active:bg-black/50;
+  }
+
+  /* Kondisi Dark Mode - otomatis aktif saat class .dark ada di html */
+  .dark ::-webkit-scrollbar-thumb {
+    @apply bg-white/15 hover:bg-white/35 active:bg-white/50;
+  }
+}

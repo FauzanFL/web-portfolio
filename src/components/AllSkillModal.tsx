@@ -8,7 +8,7 @@ interface Props {
 export default function AllSkillModal({ skills, closeModal }: Props) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm animate-[fadeIn_0.3s_ease-out]">
-      <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl max-w-4xl w-full max-h-[80vh] overflow-y-auto animate-[fadeInUp_0.4s_ease-out]">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl max-w-4xl w-full max-h-[80vh] overflow-y-auto animate-[fadeInUp_0.4s_ease-out] overscroll-contain">
         <div className="sticky top-0 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 p-6 flex items-center justify-between z-10">
           <h3 className="text-2xl font-bold font-playfair-display dark:text-white">
             All Skills

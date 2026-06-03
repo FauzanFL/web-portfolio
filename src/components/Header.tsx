@@ -31,6 +31,7 @@ export default function Header() {
             alt="Logo"
             width={30}
             height={20}
+            className="w-auto h-auto"
           />
           <span className="hidden md:inline text-xl font-bold bg-linear-to-r bg-clip-text group-hover:text-transparent group-hover:from-purple-700 group-hover:to-blue-700 transition-colors">
             FauzanFL

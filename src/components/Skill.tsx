@@ -15,12 +15,12 @@ export default function Skill() {
         id="skills"
         className="py-20 bg-linear-to-br from-gray-50 to-purple-50 dark:from-gray-900 dark:to-purple-900/10 transition-colors duration-300 overflow-hidden"
       >
-        <div className="container mx-auto px-6">
+        <div className="w-full px-2">
           <h2 className="text-4xl text-center font-bodoni-moda mb-10 italic underline decoration-2 underline-offset-8 decoration-purple-600 dark:text-white">
             Skill Set
           </h2>
 
-          <div className="relative mb-8 overflow-hidden">
+          <div className="relative mb-8 overflow-hidden w-full">
             <div className="absolute left-0 top-0 bottom-0 w-20 bg-linear-to-r from-gray-50 dark:from-gray-900 to-transparent z-10"></div>
             <div className="absolute right-0 top-0 bottom-0 w-20 bg-linear-to-l from-gray-50 dark:from-gray-900 to-transparent z-10"></div>
 

@@ -320,5 +320,27 @@
                 "url": "https://github.com/FauzanFL/blockchain-ecotracker"
             }
         ]
+    },
+    {
+        "id": 17,
+        "title": "Announcement Platform",
+        "description": "A platform for receive notifications when new announcements are posted. Include realtime notifications using SSE (Server Sent Events).",
+        "category": "Website",
+        "image": "announcement-platform.webp",
+        "publication": "",
+        "technologies": [
+            "React+Vite",
+            "TailwindCSS",
+            "Golang",
+            "Gin-Gonic",
+            "PostgreSQL",
+            "Docker"
+        ],
+        "githubRepo": [
+            {
+                "name": "Link to Github Repository",
+                "url": "https://github.com/FauzanFL/announcement-platform"
+            }
+        ]
     }
 ]

@@ -334,6 +334,7 @@
             "Golang",
             "Gin-Gonic",
             "PostgreSQL",
+            "Turborepo",
             "Docker"
         ],
         "githubRepo": [

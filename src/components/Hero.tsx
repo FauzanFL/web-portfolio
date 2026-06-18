@@ -53,12 +53,25 @@ export default function Hero() {
                 </span>{" "}
                 with Google Cloud
               </p>
-              <button
-                onClick={() => scrollToSection('contact')}
-                className="inline-block px-10 py-3.5 bg-linear-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white rounded-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 font-medium shadow-lg"
-              >
-                Contact Me
-              </button>
+              <div className="flex gap-4">
+                <button
+                  onClick={() => scrollToSection("contact")}
+                  className="inline-block px-10 py-3.5 bg-linear-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white rounded-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 font-medium shadow-lg"
+                >
+                  Contact Me
+                </button>
+                <a
+                  href="/docs/CV-Fauzan-Fashihul-Lisan.pdf"
+                  download="CV-Fauzan-Fashihul-Lisan.pdf"
+                >
+                  <button
+                    type="button"
+                    className="inline-block px-10 py-3.5 border-2 border-purple-600 text-purple-600 hover:bg-purple-50 dark:hover:bg-slate-800 rounded-lg transition-all duration-300 hover:scale-105 font-medium"
+                  >
+                    Get My CV
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>

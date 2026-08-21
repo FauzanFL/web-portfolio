@@ -33,7 +33,7 @@ export default function Pagination({
           "w-10 h-10 flex items-center justify-center rounded-full  dark:text-white transition-all duration-300 hover:scale-110 " +
           (currentPage === 1
             ? "opacity-50 cursor-not-allowed"
-            : "hover:bg-gray-100 dark:hover:bg-gray-700")
+            : "hover:cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700")
         }
       >
         <ChevronLeft className="h-4 w-4 md:rotate-90" />
@@ -46,7 +46,7 @@ export default function Pagination({
             "w-10 h-10 flex items-center justify-center rounded-full " +
             (page === currentPage
               ? "bg-linear-to-r from-purple-600 to-blue-600 text-white shadow-lg"
-              : "hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white transition-all duration-300 hover:scale-110")
+              : "hover:bg-gray-100 hover:cursor-pointer dark:hover:bg-gray-700 dark:text-white transition-all duration-300 hover:scale-110")
           }
         >
           {page}
@@ -58,7 +58,7 @@ export default function Pagination({
           "w-10 h-10 flex items-center justify-center rounded-full  dark:text-white transition-all duration-300 hover:scale-110 " +
           (currentPage === totalPages
             ? "opacity-50 cursor-not-allowed"
-            : "hover:bg-gray-100 dark:hover:bg-gray-700")
+            : "hover:cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700")
         }
       >
         <ChevronRight className="h-4 w-4 md:rotate-90" />

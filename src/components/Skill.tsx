@@ -28,7 +28,7 @@ export default function Skill() {
               {duplicatedSkills.map((skill, index) => (
                 <div
                   key={index}
-                  className="shrink-0 font-montserrat flex flex-col items-center justify-center gap-2 p-4 rounded-xl bg-blue-50 dark:bg-blue-900/30 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-lg transition-all duration-300 hover:scale-110 cursor-pointer w-24"
+                  className="shrink-0 font-montserrat flex flex-col cursor-default items-center justify-center gap-2 p-4 rounded-xl bg-blue-50 dark:bg-blue-900/30 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-lg transition-all duration-300 hover:scale-110 w-24"
                 >
                   <span className="text-3xl">
                     <img
@@ -47,7 +47,7 @@ export default function Skill() {
           <div className="text-center">
             <button
               onClick={() => setShowAllSkills(true)}
-              className="px-8 py-3 bg-linear-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-105 font-medium"
+              className="px-8 py-3 bg-linear-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 hover:cursor-pointer text-white rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-105 font-medium"
             >
               View All Skills
             </button>

@@ -56,7 +56,7 @@ export default function Hero() {
               <div className="flex gap-4">
                 <button
                   onClick={() => scrollToSection("contact")}
-                  className="inline-block px-10 py-3.5 bg-linear-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white rounded-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 font-medium shadow-lg"
+                  className="inline-block px-10 py-3.5 bg-linear-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 hover:cursor-pointer text-white rounded-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 font-medium shadow-lg"
                 >
                   Contact Me
                 </button>
@@ -66,7 +66,7 @@ export default function Hero() {
                 >
                   <button
                     type="button"
-                    className="inline-block px-10 py-3.5 border-2 border-purple-600 text-purple-600 hover:bg-purple-50 dark:hover:bg-slate-800 rounded-lg transition-all duration-300 hover:scale-105 font-medium"
+                    className="inline-block px-10 py-3.5 border-2 border-purple-600 text-purple-600 hover:bg-purple-50 hover:cursor-pointer dark:hover:bg-slate-800 rounded-lg transition-all duration-300 hover:scale-105 font-medium"
                   >
                     Get My CV
                   </button>

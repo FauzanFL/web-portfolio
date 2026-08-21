@@ -18,6 +18,7 @@ export default function Header() {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
+      window.history.pushState(null, "", `#${id}`);
       setIsMobileMenuOpen(false);
     }
   };
@@ -25,7 +26,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 right-0 left-0 z-50 font-montserrat bg-white/90 dark:bg-gray-900/90 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 shadow-sm transition-colors duration-300">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="flex items-end-safe space-x-2 hover:cursor-pointer group">
+        <div className="flex items-end-safe hover:cursor-default space-x-2 group">
           <Image
             src={isDark ? "/ffl-dark.png" : "/ffl-light.png"}
             alt="Logo"
@@ -43,7 +44,7 @@ export default function Header() {
             <button
               key={item.id}
               onClick={() => scrollToSection(item.id)}
-              className="text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors relative group"
+              className="text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors relative group hover:cursor-pointer"
             >
               {item.name}
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-linear-to-r from-purple-600 to-blue-600 group-hover:w-full transition-all duration-300"></span>
@@ -54,7 +55,7 @@ export default function Header() {
         <div className="flex items-center gap-4">
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300 hover:scale-110"
+            className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300 hover:scale-110 hover:cursor-pointer"
             aria-label="Toggle dark mode"
           >
             {isDark ? (
@@ -81,30 +82,15 @@ export default function Header() {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 shadow-lg transition-colors duration-300">
           <nav className="container mx-auto px-6 py-4 flex flex-col gap-4">
-            <button
-              onClick={() => scrollToSection("about")}
-              className="text-left text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors py-2 font-medium"
-            >
-              About
-            </button>
-            <button
-              onClick={() => scrollToSection("skills")}
-              className="text-left text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors py-2 font-medium"
-            >
-              Skills
-            </button>
-            <button
-              onClick={() => scrollToSection("portfolio")}
-              className="text-left text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors py-2 font-medium"
-            >
-              Portfolio
-            </button>
-            <button
-              onClick={() => scrollToSection("contact")}
-              className="text-left text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors py-2 font-medium"
-            >
-              Contact
-            </button>
+            {navItems.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className="text-left text-foreground hover:text-purple-600 dark:hover:text-purple-400 transition-colors py-2 font-medium"
+              >
+                {item.name}
+              </button>
+            ))}
           </nav>
         </div>
       )}

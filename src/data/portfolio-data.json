@@ -343,5 +343,48 @@
                 "url": "https://github.com/FauzanFL/announcement-platform"
             }
         ]
+    },
+    {
+        "id": 18,
+        "title": "Chunk Upload File",
+        "description": "A website for uploading files to a server using chunked upload. Chunk Upload is an optimized file transfer solution designed to efficiently handle large file uploads by dividing them into smaller, manageable data chunks.",
+        "category": "Website",
+        "image": "default.jpg",
+        "publication": "",
+        "technologies": [
+            "React+Vite",
+            "TailwindCSS",
+            "Golang",
+            "Gin-Gonic",
+            "Minio",
+            "Redis",
+            "Turborepo",
+            "Docker"
+        ],
+        "githubRepo": [
+            {
+                "name": "Link to Github Repository",
+                "url": "https://github.com/FauzanFL/chunk-upload"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Telemetry Simulator DDS",
+        "description": "A console-based tool for simulating telemetry data for publishing and subscribing to DDS topics.",
+        "category": "Console",
+        "image": "default.jpg",
+        "publication": "",
+        "technologies": [
+            "C++",
+            "CycloneDDS",
+            "Docker"
+        ],
+        "githubRepo": [
+            {
+                "name": "Link to Github Repository",
+                "url": "https://github.com/FauzanFL/dds-telemetry-simulator"
+            }
+        ]
     }
 ]

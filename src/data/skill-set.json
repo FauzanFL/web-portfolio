@@ -208,5 +208,11 @@
         "name": "Foundry",
         "tier": "B",
         "image": "foundry.png"
+    },
+    {
+        "id": 36,
+        "name": "C++",
+        "tier": "B",
+        "image": "cpp.png"
     }
 ]

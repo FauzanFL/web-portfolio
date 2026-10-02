@@ -29,11 +29,7 @@ export default function AllSkillModal({ skills, closeModal }: Props) {
                 style={{ animationDelay: `${index * 30}ms` }}
                 className="shrink-0 font-montserrat flex flex-col items-center justify-center gap-2 p-4 rounded-xl bg-blue-50 dark:bg-blue-900/30 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-lg transition-all duration-300 hover:scale-110 cursor-pointer w-24 mx-auto"
               >
-                <img
-                  src={"/img/skills/" + skill.image}
-                  alt={skill.name}
-                  className="h-6 w-6"
-                />
+                <img src={skill.image} alt={skill.name} className="h-6 w-6" />
                 <span className="text-sm font-medium text-gray-700 dark:text-gray-300 text-center">
                   {skill.name}
                 </span>

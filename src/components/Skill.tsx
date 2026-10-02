@@ -32,7 +32,7 @@ export default function Skill() {
                 >
                   <span className="text-3xl">
                     <img
-                      src={"/img/skills/" + skill.image}
+                      src={skill.image}
                       alt={skill.name}
                       className="h-6 w-6"
                     />

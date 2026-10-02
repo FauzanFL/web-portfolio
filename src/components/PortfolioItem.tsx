@@ -10,7 +10,7 @@ export default function PortfolioItem({ data }: { data: PortfolioData[] }) {
         >
           <div className="aspect-video bg-gray-200 dark:bg-gray-600 overflow-hidden">
             <img
-              src={"/img/" + item.image}
+              src={item.image}
               alt={item.title}
               className="w-full h-full object-fill"
             />

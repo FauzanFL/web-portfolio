@@ -3,216 +3,216 @@
         "id": 1,
         "name": "Golang",
         "tier": "A",
-        "image": "golang.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/golang.png"
     },
     {
         "id": 2,
         "name": "Bootstrap",
         "tier": "B",
-        "image": "bootstrap.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/bootstrap.png"
     },
     {
         "id": 3,
         "name": "Codeigniter",
         "tier": "B",
-        "image": "codeigniter.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/codeigniter.png"
     },
     {
         "id": 4,
         "name": "CSS",
         "tier": "A",
-        "image": "css.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/css.png"
     },
     {
         "id": 5,
         "name": "ElysiaJS",
         "tier": "C",
-        "image": "elysiajs.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/elysiajs.png"
     },
     {
         "id": 6,
         "name": "ExpressJS",
         "tier": "A",
-        "image": "expressjs.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/expressjs.png"
     },
     {
         "id": 7,
         "name": "Flask",
         "tier": "B",
-        "image": "flask.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/flask.png"
     },
     {
         "id": 8,
         "name": "Gin-Gonic",
         "tier": "A",
-        "image": "gin-gonic.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/gin-gonic.png"
     },
     {
         "id": 9,
         "name": "Git",
         "tier": "A",
-        "image": "git.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/git.png"
     },
     {
         "id": 10,
         "name": "Github",
         "tier": "A",
-        "image": "github.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/github.png"
     },
     {
         "id": 11,
         "name": "HapiJS",
         "tier": "B",
-        "image": "hapijs.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/hapijs.png"
     },
     {
         "id": 12,
         "name": "HTML",
         "tier": "A",
-        "image": "html.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/html.png"
     },
     {
         "id": 13,
         "name": "Java",
         "tier": "B",
-        "image": "java.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/java.png"
     },
     {
         "id": 14,
         "name": "Javascript",
         "tier": "A",
-        "image": "javascript.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/javascript.png"
     },
     {
         "id": 15,
         "name": "Laravel",
         "tier": "A",
-        "image": "laravel.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/laravel.png"
     },
     {
         "id": 16,
         "name": "MongoDB",
         "tier": "C",
-        "image": "mongodb.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/mongodb.png"
     },
     {
         "id": 17,
         "name": "MySQL",
         "tier": "A",
-        "image": "mysql.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/mysql.png"
     },
     {
         "id": 18,
         "name": "NestJS",
         "tier": "C",
-        "image": "nestjs.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/nestjs.png"
     },
     {
         "id": 19,
         "name": "NextJS",
         "tier": "B",
-        "image": "nextjs.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/nextjs.png"
     },
     {
         "id": 20,
         "name": "PHP",
         "tier": "A",
-        "image": "php.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/php.png"
     },
     {
         "id": 21,
         "name": "PostgreSQL",
         "tier": "B",
-        "image": "postgresql.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/postgresql.png"
     },
     {
         "id": 22,
         "name": "Python",
         "tier": "B",
-        "image": "python.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/python.png"
     },
     {
         "id": 23,
         "name": "ReactJS",
         "tier": "A",
-        "image": "react.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/react.png"
     },
     {
         "id": 24,
         "name": "TailwindCSS",
         "tier": "A",
-        "image": "tailwind.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/tailwind.png"
     },
     {
         "id": 25,
         "name": "Typescript",
         "tier": "B",
-        "image": "typescript.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/typescript.png"
     },
     {
         "id": 26,
         "name": "VueJS",
         "tier": "B",
-        "image": "vuejs.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/vuejs.png"
     },
     {
         "id": 27,
         "name": "Swagger",
         "tier": "B",
-        "image": "swagger.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/swagger.png"
     },
     {
         "id": 28,
         "name": "PrismaORM",
         "tier": "B",
-        "image": "prisma.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/prisma.png"
     },
     {
         "id": 29,
         "name": "Sequelize",
         "tier": "B",
-        "image": "sequelize.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/sequelize.png"
     },
     {
         "id": 30,
         "name": "Solidity",
         "tier": "C",
-        "image": "solidity.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/solidity.png"
     },
     {
         "id": 31,
         "name": "Google Cloud",
         "tier": "B",
-        "image": "google-cloud.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/google-cloud.png"
     },
     {
         "id": 32,
         "name": "Docker",
         "tier": "A",
-        "image": "docker.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/docker.png"
     },
     {
         "id": 33,
         "name": "SvelteKit",
         "tier": "B",
-        "image": "sveltekit.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/sveltekit.png"
     },
     {
         "id": 34,
         "name": "FastAPI",
         "tier": "B",
-        "image": "fastapi.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/fastapi.png"
     },
     {
         "id": 35,
         "name": "Foundry",
         "tier": "B",
-        "image": "foundry.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/foundry.png"
     },
     {
         "id": 36,
         "name": "C++",
         "tier": "B",
-        "image": "cpp.png"
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/skills/cpp.png"
     }
 ]

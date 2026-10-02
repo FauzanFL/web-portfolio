@@ -4,7 +4,7 @@
         "title": "OBE RPL",
         "description": "Website to help monitor and manage the process of implementing the Outcome Based Education (OBE) curriculum in the Software Engineering study program at the Telkom Institute of Technology Purwokerto.",
         "category": "Website",
-        "image": "obe-rpl.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/obe-rpl.jpg",
         "publication": "https://web.obe-rpl.site/",
         "technologies": [
             "TailwindCSS",
@@ -29,7 +29,7 @@
         "title": "ExercisePath",
         "description": "Website that provides information about a collection of fitness exercises that can be done at home, at the gym, or outdoors. The data obrained comes from open source APIs.",
         "category": "Website",
-        "image": "exercisepath.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/exercisepath.jpg",
         "publication": "https://exercisepath.vercel.app/",
         "technologies": [
             "NextJS",
@@ -48,7 +48,7 @@
         "title": "VueStore",
         "description": "Website built using VueJS which can display product data from the database and can add or remove available products from the cart.",
         "category": "Website",
-        "image": "vuestore.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/vuestore.jpg",
         "publication": "",
         "technologies": [
             "VueJS",
@@ -72,7 +72,7 @@
         "title": "PelitaApp API",
         "description": "he API used to support the running process of the Android application is called PELITA (PEduli LIngkungan kiTA). One of the functions of this API is that it can carry out predictions obtained from machine learning models.",
         "category": "Backend",
-        "image": "pelitaapi.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/pelitaapi.jpg",
         "publication": "",
         "technologies": [
             "Flask",
@@ -90,7 +90,7 @@
         "title": "Pinggir Jurang Resto",
         "description": "Progressive Web App (PWA) which provides restaurant recommendations in several cities in Indonesia. Using javascript custom components in some parts. The data used is taken from the API provided by Dicoding.",
         "category": "Website",
-        "image": "pinggirjurang.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/pinggirjurang.jpg",
         "publication": "",
         "technologies": [
             "Javascript",
@@ -109,7 +109,7 @@
         "title": "PWT Mantap",
         "description": "A simple article website that provides information about Purwokerto. The information provided includes history, tourist attractions and traditional food.",
         "category": "Website",
-        "image": "pwtmantap.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/pwtmantap.jpg",
         "publication": "https://pwt-mantap.netlify.app/",
         "technologies": [
             "HTML",
@@ -128,7 +128,7 @@
         "title": "WebClock",
         "description": "A simple website that displays time information that changes every second like a digital clock.",
         "category": "Website",
-        "image": "webclock.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/webclock.jpg",
         "publication": "https://web-clockf.netlify.app/",
         "technologies": [
             "HTML",
@@ -147,7 +147,7 @@
         "title": "Web MHS",
         "description": "A simple website for managing student data created using the Laravel framework.",
         "category": "Website",
-        "image": "webmhs.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/webmhs.jpg",
         "publication": "",
         "technologies": [
             "HTML",
@@ -167,7 +167,7 @@
         "title": "Website Raport",
         "description": "Website to manage student grade data at the junior high school 1 Talaga. There are several roles (student, admin, homeroom teacher) and have their own authority.",
         "category": "Website",
-        "image": "websiteraport.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/websiteraport.jpg",
         "publication": "",
         "technologies": [
             "HTML",
@@ -186,7 +186,7 @@
         "title": "Gunting Kertas Batu",
         "description": "A simple traditional game website, rock paper scissors, with scissors winning against paper, paper winning against rock, rock winning against scissors.",
         "category": "Website",
-        "image": "gkb.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/gkb.jpg",
         "publication": "https://gunting-kertas-batu.netlify.app/",
         "technologies": [
             "HTML",
@@ -205,7 +205,7 @@
         "title": "Notes API",
         "description": "Simple API for managing notes app (show notes, add notes, edit notes, and remove notes). Built using the HapiJS framework",
         "category": "Backend",
-        "image": "notesapi.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/notesapi.jpg",
         "publication": "",
         "technologies": [
             "Javascript",
@@ -223,7 +223,7 @@
         "title": "Product API",
         "description": "Simple API for managing product (show products, add products, edit products, and remove products). Built using Golang",
         "category": "Backend",
-        "image": "productapi.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/productapi.jpg",
         "publication": "",
         "technologies": [
             "Golang",
@@ -241,7 +241,7 @@
         "title": "Marketplace Smart Contract Example",
         "description": "Marketplace smart contract with simple functionality such as minting, get data from blockchain, burn nft, and change data in blockchain",
         "category": "Blockchain",
-        "image": "default.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/default.jpg",
         "publication": "",
         "technologies": [
             "Solidity",
@@ -259,7 +259,7 @@
         "title": "NFT Marketplace Website",
         "description": "Simple website for nft matkerplace, have functionality to mint, burn, get, and burn nft from the blockchain",
         "category": "Frontend",
-        "image": "rwamarketplace.png",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/rwamarketplace.png",
         "publication": "https://rwa-marketplace-gray.vercel.app/",
         "technologies": [
             "NextJS"
@@ -276,7 +276,7 @@
         "title": "Inventory App",
         "description": "A simple responsive website that manages inventory data. It can add, edit, and delete data, also have a search function for data. It also implements RBAC (Role Based Access Control).",
         "category": "Website",
-        "image": "inventory-app.png",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/inventory-app.png",
         "publication": "",
         "technologies": [
             "SvelteKit",
@@ -301,7 +301,7 @@
         "title": "Eco Tracker",
         "description": "A Web3-powered carbon emission dashboard that enables users to monitor, analyze, and synchronize their carbon footprint on-chain with transparency, accuracy, and in real-time.",
         "category": "Website",
-        "image": "ecotracker.jpg",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/ecotracker.jpg",
         "publication": "",
         "technologies": [
             "Polygon Amoy",
@@ -326,7 +326,7 @@
         "title": "Announcement Platform",
         "description": "A platform for receive notifications when new announcements are posted. Include realtime notifications using SSE (Server Sent Events).",
         "category": "Website",
-        "image": "announcement-platform.webp",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/announcement-platform.webp",
         "publication": "",
         "technologies": [
             "React+Vite",
@@ -349,7 +349,7 @@
         "title": "Chunk Upload File",
         "description": "A website for uploading files to a server using chunked upload. Chunk Upload is an optimized file transfer solution designed to efficiently handle large file uploads by dividing them into smaller, manageable data chunks.",
         "category": "Website",
-        "image": "upload-chunk.webp",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/upload-chunk.webp",
         "publication": "",
         "technologies": [
             "React+Vite",
@@ -373,7 +373,7 @@
         "title": "Telemetry Simulator DDS",
         "description": "A console-based tool for simulating telemetry data for publishing and subscribing to DDS topics.",
         "category": "Console",
-        "image": "dds-simulator.webp",
+        "image": "https://omeflrumfnqwnybfrvzj.supabase.co/storage/v1/object/public/MyBucket/portfolios/dds-simulator.webp",
         "publication": "",
         "technologies": [
             "C++",
